@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Cpmpatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CGPA CALCULATOR</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+</head>
+<body>
+    <h1>CGPA Calculator</h1>
+    <div class="container-1">
+        <h2 class="header-1">This is a CGPA calculatlor</h2>
+
+        <div class="course-div">
+        
+
+            <form class="get-0">
+
+
+                <h2>
+                    <label for="courses" id="course-code">course code:-</label>
+                    <label for="course-unit" id="course-code">course code:-</label>
+                    <label for="course-grade" id="course-grade">course code:-</label>
+                </h2>
+                <input type="text" placeholder="Enter The Course Code" class="courses" required>
+                <input type="number" placeholder="Enter The Course Code" class="course-unit" required>
+                <select class="grade get" id="grades">
+                    <option value="select" class="grade">Select</option>
+                    <option value="A" class="grade">A</option>
+                    <option value="B" class="grade">B</option>
+                    <option value="C" class="grade">C</option>
+                    <option value="D" class="grade">D</option>
+                    <option value="E" class="grade">E</option>
+                </select>
+
+            </form>
+        </div>
+        <div class="button">
+            <button class="btn btn-primary" id="add-course">Add Courses</button>
+            <button class="btn btn-danger" id="remove-course">Remove courses</button>
+            <button class="btn btn-success" id="get-grade">calculate</button>
+         </div>
+        
+        <div class="result-div">
+            <p id="result">Your CGPA is:-</p>
+        </div>
+
+    </div>
+    <script src="/calci.js"></script>
+</body>
+</html>
